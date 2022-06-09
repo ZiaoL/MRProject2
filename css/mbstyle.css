@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-size: 12px;
+    color: #888888;
+}
+
+.header {
+    width: 100%;
+    background-color: #F6F6F7;
+    height: auto;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.navOff {
+    display: none;
+}
+
+.navOn {
+    display: block;
+    position: fixed;
+    width: auto;
+    height: auto;
+    border: solid 1px #222222;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+.navOn>div {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.navOn p {
+    margin: 0;
+    line-height: 2;
+}
+
+.navOn>div>div,
+.navOn>div>img {
+    width: 40%;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+}
+
+.navOn>div>div>div>p {
+    display: inline;
+}
+
+.box p {
+    padding: 5px 0;
+    margin: 0;
+    margin-left: 60%;
+}
+
+.pagebody {
+    width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.productImg img {
+    width: 100%;
+    height: auto;
+}
+
+h1,
+.price {
+    color: #222222;
+}
+
+.description {
+    line-height: 2;
+}
+
+.sizeHead p {
+    display: inline;
+}
+
+.red {
+    color: #C90000;
+}
+
+.productInfo>div {
+    margin: 10px 0;
+}
+
+.sizeSelection button {
+    display: inline-block;
+    border: solid 1px #888888;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.submitBtn {
+    border: solid 2px #222222;
+    padding: 10px;
+    color: #222222;
+    background-color: #fff;
+}
+
+.submitBtn:hover {
+    background-color: #222222;
+    color: #fff;
+}
+
+.selected {
+    border: solid 2px#222222;
+}
+
+.unselected {
+    border: solid 1px #CCCCCC;
+}

@@ -1,0 +1,68 @@
+<!--@author  Ziao Liang-->
+
+<?php require "login.php"; ?>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>MR project</title>
+    <link rel="stylesheet" media="screen and (min-width:970px)" href="css/pcstyle.css">
+    <link rel="stylesheet" media="screen and (max-width:970px)" href="css/mbstyle.css">
+
+    <link rel="icon" type="image/png" href="img/icon.png">
+
+
+</head>
+
+<body>
+    <div id="header" class="header">
+        <div class="box" onclick="cartShow()">
+            <p>My Cart</p>
+            <p id="sum">(0)</p>
+        </div>
+        <div id="ddm" class="navOff"></div>
+
+    </div>
+
+    <div id="pagebody" class="pagebody">
+        <div class="productImg"><img src="img/classic-tee.jpg" alt=""></div>
+        <div class="productInfo">
+            <h1>Classic Tee</h1>
+            <hr>
+            <div class="price">$75</div>
+            <hr>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="size">
+                <div class="sizeHead">
+                    <p>SIZE</p>
+                    <p class="red">*</p>
+                </div>
+                <div class="sizeSelection">
+                    <button id="sizeS" class="unselected" onclick="size('s')">
+                        S
+                    </button>
+                    <button id="sizeM" class="unselected" onclick="size('m')">
+                        M
+                    </button>
+                    <button id="sizeL" class="unselected" onclick="size('l')">
+                        L
+                    </button>
+                </div>
+
+            </div>
+
+            <button class="submitBtn" onclick="submitFunction(checkAttribute())">ADD TO CART</button>
+
+        </div>
+
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/function.js"></script>
+
+
+
+</html>

@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #888888;
+    background-color: #fff;
+}
+
+.header {
+    width: 80%;
+    background-color: #F6F6F7;
+    height: auto;
+    margin: 15px auto;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.box {
+    width: fit-content;
+    height: auto;
+    margin-left: 80%;
+}
+
+.navOff {
+    display: none;
+}
+
+.navOn {
+    display: block;
+    position: fixed;
+    width: 250px;
+    height: auto;
+    border: solid 1px #222222;
+    margin-left: 48%;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+.navOn img {
+    width: 30%;
+    height: auto;
+}
+
+.navOn>div {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.navOn>div>img,
+.navOn>div>div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5%;
+}
+
+.navOn>div>div>div>p {
+    display: inline;
+}
+
+.navOn>div>div>p,
+.navOn>div>div>div {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.header p {
+    display: inline;
+}
+
+.pagebody {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.productImg {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.productImg img {
+    width: 100%;
+    height: auto;
+}
+
+.productInfo {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.productInfo>div {
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}
+
+h1,
+.price {
+    color: #222222;
+}
+
+hr {
+    background-color: #F6F6F7;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.sizeHead p {
+    display: inline;
+}
+
+.red {
+    color: #C90000;
+}
+
+.sizeSelection button {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.sizeSelection button:hover,
+.selected {
+    border: solid 2px#222222;
+}
+
+.unselected {
+    border: solid 1px #CCCCCC;
+}
+
+.submitBtn {
+    border: solid 2px #222222;
+    padding: 10px;
+    color: #222222;
+    background-color: #fff;
+}
+
+.submitBtn:hover {
+    background-color: #222222;
+    color: #fff;
+}
